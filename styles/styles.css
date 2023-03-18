@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+ 
   color: #1d1d1d;
 }
 
@@ -10,7 +10,7 @@ body {
 }
 
 .font-secondary {
-  font-family: 'Lora', serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .img {
@@ -60,7 +60,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  text-align: justify;
+  text-align: center;
   font-family:'Times New Roman', Times, serif;
 
   @media (min-width: @screen-sm-min) {
@@ -208,7 +208,7 @@ body {
   font-family: 'Poppins', sans-serif;
   min-height: 1280px;
   color: #3b3b3b;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 p,
@@ -269,12 +269,14 @@ nav {
 }
 
 .intro__hed {
+  font-family: 'Poppins', sans-serif;
+  color: goldenrod;
   font-size: 2em;
   margin: 2rem auto 0.5rem auto;
 }
 
 .intro__dek {
-  color: #8a8a8a;
+  text-align: center;
 }
 
 .github-corner:hover .octo-arm {
@@ -309,7 +311,7 @@ nav {
 }
 
 #intro {
-  margin-bottom: 200px;
+  margin-bottom: 15px;
 }
 
 #outro {
