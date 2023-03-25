@@ -5,7 +5,7 @@ var article = scrolly.querySelector("article");
 var step = article.querySelectorAll(".step");
 
 // initialize the scrollama
-var scroller = scrollama();
+var scroller = scrollama(); 
 
 // generic window resize listener event
 function handleResize() {
