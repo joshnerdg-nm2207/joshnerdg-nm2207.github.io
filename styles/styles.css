@@ -1,9 +1,9 @@
 body {
- 
+
   color: #1d1d1d;
 }
 
-.studyTitle{
+.studyTitle {
   font-size: 35px;
   line-height: 36px;
   font-weight: 500;
@@ -22,7 +22,7 @@ body {
 .text-h2 {
   font-size: 36px;
   line-height: 52px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
   @media (min-width: @screen-sm-min) {
     font-size: 32px;
@@ -35,7 +35,7 @@ body {
   line-height: 36px;
   font-weight: 500;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
   @media (min-width: @screen-sm-min) {
     font-size: 28px;
@@ -48,7 +48,7 @@ body {
   font-weight: 400;
   line-height: 32px;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
   @media (min-width: @screen-sm-min) {
     font-size: 18px;
@@ -61,7 +61,7 @@ body {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
   @media (min-width: @screen-sm-min) {
     font-size: 16px;
@@ -78,7 +78,7 @@ body {
 
   @media (min-width: @screen-sm-min) {
     font-size: 28px;
-  }  
+  }
 }
 
 .text-caption {
@@ -87,7 +87,7 @@ body {
 
   @media (min-width: @screen-sm-min) {
     font-size: 12px;
-    line-height: 18px; 
+    line-height: 18px;
   }
 }
 
@@ -97,11 +97,12 @@ body {
 
   @media (min-width: @screen-sm-min) {
     font-size: 10px;
-    line-height: 16px; 
+    line-height: 16px;
   }
 }
 
-a, li > a {
+a,
+li>a {
   color: #264cc7 !important;
   border-bottom: 2px solid #E9E2DA;
   text-decoration: none;
@@ -109,88 +110,78 @@ a, li > a {
 }
 
 
-		#scrolly {
-			position: relative;
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			background-color: #f3f3f3;
-			padding: 1rem;
-		}
+#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 1rem;
+}
 
-		#scrolly>* {
-			-webkit-box-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
-		}
+#scrolly>* {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
 
-    #scrolly2 {
-			position: relative;
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			background-color: #f3f3f3;
-			padding: 1rem;
-		}
+#scrolly2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 1rem;
+}
 
-		#scrolly2>* {
-			-webkit-box-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
-		}
+#scrolly2>* {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
 
-		article {
-			position: relative;
-			padding: 0 1rem;
-			max-width: 50rem;
-		}
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 55%;
+  /* height: 500px; */
+}
 
-		figure {
-			position: -webkit-sticky;
-			position: sticky;
-			width: 100%;
-			margin: 0;
-			-webkit-transform: translate3d(0, 0, 0);
-			-moz-transform: translate3d(0, 0, 0);
-			transform: translate3d(0, 0, 0);
-			background-color: #8a8a8a;
-			z-index: 0;
-		}
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 40%;
+  top: 22% !important;
+  height: 426px !important;
+  right: 0;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  background-color: white;
+  z-index: 0;
+}
 
-		figure p {
-			text-align: center;
-			padding: 1rem;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			-moz-transform: translate(-50%, -50%);
-			-webkit-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
-			font-size: 8rem;
-			font-weight: 900;
-			color: #fff;
-		}
+.step {
+  margin: 0 auto 2rem auto;
+  background-color: #3b3b3b;
+  color: #fff;
+}
 
-		.step {
-			margin: 0 auto 2rem auto;
-			background-color: #3b3b3b;
-			color: #fff;
-		}
+.step:last-child {
+  margin-bottom: 0;
+}
 
-		.step:last-child {
-			margin-bottom: 0;
-		}
+.step.is-active {
+  background-color: goldenrod;
+  color: #3b3b3b;
+}
 
-		.step.is-active {
-			background-color: goldenrod;
-			color: #3b3b3b;
-		}
-
-		.step p {
-			text-align: center;
-			padding: 1rem;
-			font-size: 1.5rem;
-		}
+.step p {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
 
 
 
@@ -239,7 +230,7 @@ nav {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background: #f3f3f3;
+  background: white;
   padding: 1rem;
   padding-right: 5rem;
   -ms-flex-wrap: wrap;
@@ -258,7 +249,7 @@ nav {
   margin-top: 1rem;
 }
 
-.nav__examples > * {
+.nav__examples>* {
   margin-right: 0.5rem;
 }
 
@@ -284,6 +275,7 @@ nav {
 }
 
 @keyframes octocat-wave {
+
   0%,
   100% {
     transform: rotate(0);
@@ -323,4 +315,8 @@ nav {
     margin-top: 0;
     margin-left: 2rem;
   }
+}
+
+figure div {
+  display: none;
 }

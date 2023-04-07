@@ -5,7 +5,7 @@ var article = scrolly.querySelector("article");
 var step = article.querySelectorAll(".step");
 
 // initialize the scrollama
-var scroller = scrollama(); 
+var scroller = scrollama();
 
 // generic window resize listener event
 function handleResize() {
@@ -36,7 +36,34 @@ function handleStepEnter(response) {
   });
 
   // update graphic based on step
-  figure.querySelector("p").textContent = response.index + 1;
+  /* figure.querySelector("div").textContent = response.index + 1;
+  //add id into html tag --> pass to query selector
+  console.log(figure.querySelector("div").textContent); */
+
+  const charts = figure.querySelectorAll('.flourish-embed');
+  console.log(charts);
+  function hideCharts() {
+    for (let i = 0; i < charts.length; i++) {
+      charts[i].style.display = "none";
+    }
+  }
+
+  hideCharts();
+  // charts[response.index].style.display = "block";
+  if (response.index === 0)
+    charts[0].style.display = "block";
+  else if (response.index === 1)
+    charts[1].style.display = "block";
+  else if (response.index === 2)
+    charts[2].style.display = "block";
+  else if (response.index === 3)
+    charts[3].style.display = "block";
+  else if (response.index === 4)
+    charts[4].style.display = "block";
+  else if (response.index === 5)
+    charts[5].style.display = "block";
+  else if (response.index === 6)
+    charts[6].style.display = "block";
 }
 
 function init() {
