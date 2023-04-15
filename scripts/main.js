@@ -64,6 +64,30 @@ function handleStepEnter(response) {
     charts[5].style.display = "block";
   else if (response.index === 6)
     charts[6].style.display = "block";
+  else if (response.index === 7)
+    charts[7].style.display = "block";
+  else if (response.index === 8)
+    charts[8].style.display = "block";
+  else if (response.index === 9)
+    charts[9].style.display = "block";
+  else if (response.index === 10)
+    charts[10].style.display = "block";
+  else if (response.index === 11)
+    charts[11].style.display = "block";
+  else if (response.index === 12)
+    charts[12].style.display = "block";
+  else if (response.index === 13)
+    charts[13].style.display = "block";
+  else if (response.index === 14)
+    charts[14].style.display = "block";
+  else if (response.index === 15)
+    charts[15].style.display = "block";
+  else if (response.index === 16)
+    charts[16].style.display = "block";
+  else if (response.index === 17)
+    charts[17].style.display = "block";
+
+
 }
 
 function init() {

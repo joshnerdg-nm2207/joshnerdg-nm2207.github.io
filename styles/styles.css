@@ -173,14 +173,14 @@ figure {
 }
 
 .step.is-active {
-  background-color: goldenrod;
+  background-color: #daa520;
   color: #3b3b3b;
 }
 
 .step p {
   text-align: left;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 
